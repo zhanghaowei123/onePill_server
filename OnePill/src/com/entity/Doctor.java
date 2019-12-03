@@ -1,6 +1,7 @@
 package com.entity;
 
 public class Doctor {
+	private String doctorId;
 	private String name;
 	private String phone;
 	private String address;
@@ -28,6 +29,13 @@ public class Doctor {
 		this.headImg = headImg;
 		this.licence1 = licence1;
 		this.licence2 = licence2;
+	}
+	
+	public String getDoctorId() {
+		return doctorId;
+	}
+	public void setDoctorId(String doctorId) {
+		this.doctorId = doctorId;
 	}
 	public String getName() {
 		return name;
