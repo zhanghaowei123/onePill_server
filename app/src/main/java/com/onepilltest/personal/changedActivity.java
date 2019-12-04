@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.onepilltest.R;
 
 
+//test
 public class changedActivity extends AppCompatActivity {
 
     @Override
