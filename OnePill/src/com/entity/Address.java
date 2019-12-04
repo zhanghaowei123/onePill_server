@@ -1,5 +1,6 @@
 package com.entity;
 
+//地址类
 public class Address {
 	private int UserId;
     private int Id;
